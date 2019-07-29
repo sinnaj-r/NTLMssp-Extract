@@ -1,7 +1,7 @@
 # NTLMssp-Extract
 A small Python-Script to extract NetNTLMv2 Hashes from NTMLssp-HTTP-Authentications, which were captured in a pcap.
 
-Requires **pyshark** (https://github.com/KimiNewt/pyshark) and **Python 2.7**
+Requires **pyshark** (https://github.com/KimiNewt/pyshark) and **Python 3**
 
 # Installation:
 Just clone this repository and run the *ntlmssp_extract.py*  file.
