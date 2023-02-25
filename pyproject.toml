@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ntlmssp-extract"
+version = "1.0.0"
+description = "A small Python-Script to extract NetNTLMv2 Hashes from NTMLssp-HTTP-Authentications, which were captured in a pcap."
+authors = ["sinnaj-r"]
+license = "MIT License"
+readme = "README.md"
+include = ["./*.py"]
+packages = [{include = "./*.py"}]
+
+[tool.poetry.scripts]
+ntlmssp_extract = 'ntlmssp_extract.py:main'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyshark = "^0.5.3"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
