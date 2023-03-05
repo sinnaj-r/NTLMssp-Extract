@@ -9,7 +9,7 @@ include = ["./*.py"]
 packages = [{include = "./*.py"}]
 
 [tool.poetry.scripts]
-ntlmssp_extract = 'ntlmssp_extract.py:main'
+ntlmssp_extract = 'ntlmssp_extract:main'
 
 [tool.poetry.dependencies]
 python = "^3.10"
