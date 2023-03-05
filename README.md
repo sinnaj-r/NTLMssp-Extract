@@ -6,6 +6,15 @@ Requires **pyshark** (https://github.com/KimiNewt/pyshark) and **Python 3**
 # Installation:
 Just clone this repository and run the *ntlmssp_extract.py*  file.
 
+## Installation with pip or pipx
+
+```bash
+pip install git+https://github.com/sinnaj-r/NTLMssp-Extract --break-system-packages
+```
+```bash
+pipx install git+https://github.com/sinnaj-r/NTLMssp-Extract
+```
+
 # Usage:
 After executing the python-file, you can choose which output format you want, *0* for (cuda/ocl)[Hashcat](https://hashcat.net/hashcat/) or *1* for [JohnTheRipper](http://www.openwall.com/john/)
 Then you are able to enter the full path of your capture-file (if you want to speed up the extraction, you should remove all the non related packages from the capture before you run NTLMssp-Extract).
